@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "b3tools"
+name = "finance_stuff"
 version = "0.1.0"
 description = "Python tools for analysis of Brazilian financial markets"
 readme = "README.md"
