@@ -31,7 +31,7 @@ def dataplot(data, labels=['',''], size=(8,3), ylabel=None):
   axes1 = fig1.add_axes([0, 0, 1, 1])
   axes1.set_prop_cycle(cores)
   for d,l in zip(data, labels):
-    axes1.plot(data[0].index, d, label=l)
+    axes1.plot(d.index, d, label=l)
   axes1.set_ylabel(ylabel)
   axes1.legend(loc=0)
   plt.show()
